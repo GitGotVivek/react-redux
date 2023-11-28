@@ -1,0 +1,81 @@
+
+ 
+.main{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.body {
+    background-image: url("../../../../public/img/bg-hero.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-blend-mode: darken;
+}
+
+.body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -0.01%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.userRow{
+    margin:5% auto;
+}
+
+.textColor{
+    color: #fea116;
+}
+.userDataColor{
+    color: #979494;
+}
+
+.topbar{
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.topbar a{
+    float: right;
+    color: #fea116;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.userName{
+    text-align: justify;
+    font-family: Tangerine;
+}
+
+.sidebar{
+    /* background-color: #0F172B; */
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    height: 100%;
+}
+
+.sidebar a{
+    margin-left: 10px;
+    display: block;
+    color: #fea116;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    background-color: rgba(0,0,0,0.5);
+}

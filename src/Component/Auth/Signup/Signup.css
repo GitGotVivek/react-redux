@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    height: 700px;
+}
+
+.signuinputbox{
+   padding: 10px;
+   margin: 10px;
+}
+
+.profile_pic{
+    color: #fea116;
+    background-color: rgb(110, 108, 108);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 20rem;
+    transition: 0.6s ease;
+}
+
+.profile_pic:hover{
+    color: #fff;
+    background-color: #fea116;
+}

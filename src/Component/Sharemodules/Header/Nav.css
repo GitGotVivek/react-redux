@@ -1,0 +1,13 @@
+ .toggltUserName{
+    position: relative;
+    /* position: absolute; */
+    height: 40px;
+    /* margin-top: 20px; */
+    margin: 25px 0 0 10px;
+ }
+
+ .toggltUserName:hover{
+    color: #fea116;
+    background-color: rgba(0,0,0,0.05);
+    border: 1px solid #fff;
+ }
